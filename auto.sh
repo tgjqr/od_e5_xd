@@ -8,4 +8,4 @@ sudo chmod 777 /home/pi/Public/github/syslog
 cd /home/pi/Public/github
 git add .
 git commit -m "auto save"
-git push -u origin main -f
+git push -u origin main
