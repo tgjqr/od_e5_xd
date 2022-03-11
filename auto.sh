@@ -1,5 +1,5 @@
 #!/bin/bash
-dd if=/dev/zero of=/home/pi/Public/github/random count=1024 bs=512
+dd if=/dev/urandom of=/home/pi/Public/github/random count=1024 bs=1
 cd /home/pi/Public/github
 sleep 2
 git add .
