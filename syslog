@@ -19155,3 +19155,6 @@ Mar 11 12:47:22 raspberrypi rngd[535]: stats: Time spent starving for entropy: (
 Mar 11 12:47:31 raspberrypi dhcpcd[427]: eth0: Router Advertisement from fe80::2f1:f3ff:fe22:34dd
 Mar 11 12:54:48 raspberrypi systemd[1]: Started Session 3738 of user pi.
 Mar 11 12:54:48 raspberrypi systemd[1]: session-3738.scope: Succeeded.
+Mar 11 12:56:07 raspberrypi dhcpcd[427]: eth0: Router Advertisement from fe80::2f1:f3ff:fe22:34dd
+Mar 11 12:56:07 raspberrypi systemd[1]: Started Session 3739 of user pi.
+Mar 11 12:56:07 raspberrypi systemd[1]: session-3739.scope: Succeeded.
