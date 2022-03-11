@@ -1,2 +1,13 @@
 自动上传代码至github
 https://juejin.cn/post/6844904046445199368
+cd一个文件夹，作为本地仓库
+添加文件，git add .
+git commit -m "注释"
+测试机器是否与GitHub账号关联
+ssh-keygen -t rsa -C "youremail@example.com"  --(引号的是自己的账号邮箱)
+期间我们一路回车就好了，执行完之后，我们可以到用户主目录找到.ssh目录
+将.pub文件复制到GitHub ssh公钥中
+执行关联
+git remote add origin git@github.com:***/***.git
+执行上传
+git push -u origin master
