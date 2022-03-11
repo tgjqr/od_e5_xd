@@ -16,12 +16,7 @@ git push -u origin main
 
 脚本:
 #!/bin/bash
-rm -f /home/pi/Public/github/auth.log
-rm -f /home/pi/Public/github/syslog
-sudo cp /var/log/auth.log /home/pi/Public/github/
-sudo cp /var/log/syslog /home/pi/Public/github/
-sudo chmod 777 /home/pi/Public/github/auth.log
-sudo chmod 777 /home/pi/Public/github/syslog
+dd if=/dev/zero of=/home/pi/Public/github/test count=1024 bs=1
 cd /home/pi/Public/github
 git add .
 git commit -m "auto save"
