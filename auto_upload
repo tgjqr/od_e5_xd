@@ -14,8 +14,8 @@ git push -u origin master
 
 脚本:
 #!/bin/bash
-rm /home/pi/Public/github/auth.log
-rm /home/pi/Public/github/syslog
+rm -f /home/pi/Public/github/auth.log
+rm -f /home/pi/Public/github/syslog
 sudo cp /var/log/auth.log /home/pi/Public/github/
 sudo cp /var/log/syslog /home/pi/Public/github/
 cd /home/pi/Public/github
