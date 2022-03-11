@@ -22,5 +22,5 @@ git add .
 git commit -m "auto save"
 git push -u origin main
 
-接着，给这个脚本增加权限（为了方便我直接就是chmod 777)
-有了脚本以后，我们就可以将这个脚本放到crontab上执行
+接着给这个脚本增加权限（为了方便直接就是chmod 777)
+有了脚本以后，将这个脚本放到crontab上执行
