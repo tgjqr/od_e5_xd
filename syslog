@@ -19131,3 +19131,25 @@ Mar 11 12:30:06 raspberrypi CRON[9974]: (CRON) info (No MTA installed, discardin
 Mar 11 12:30:07 raspberrypi CRON[9973]: (CRON) info (No MTA installed, discarding output)
 Mar 11 12:35:22 raspberrypi dhcpcd[427]: eth0: Router Advertisement from fe80::2f1:f3ff:fe22:34dd
 Mar 11 12:39:35 raspberrypi dhcpcd[427]: eth0: Router Advertisement from fe80::2f1:f3ff:fe22:34dd
+Mar 11 12:45:01 raspberrypi CRON[15410]: (pi) CMD (wget --no-check-certificate -q -O - 'https://ipv6.dynv6.com/api/update?hostname=zfypiv6.dynv6.net&token=NdrM7ayh4eA3iYx9jiNJnCJwb1yKUz&ipv6=auto')
+Mar 11 12:45:01 raspberrypi CRON[15409]: (pi) CMD (wget --no-check-certificate -q -O - 'https://ipv6.dynv6.com/api/update?hostname=zfypi.dynv6.net&token=NdrM7ayh4eA3iYx9jiNJnCJwb1yKUz&ipv6=auto')
+Mar 11 12:45:01 raspberrypi CRON[15411]: (pi) CMD (wget --no-check-certificate -q -O - 'https://ipv4.dynv6.com/api/update?hostname=zfypi.dynv6.net&token=NdrM7ayh4eA3iYx9jiNJnCJwb1yKUz&ipv4=auto')
+Mar 11 12:45:05 raspberrypi CRON[15408]: (CRON) info (No MTA installed, discarding output)
+Mar 11 12:45:14 raspberrypi CRON[15407]: (CRON) info (No MTA installed, discarding output)
+Mar 11 12:45:15 raspberrypi CRON[15406]: (CRON) info (No MTA installed, discarding output)
+Mar 11 12:47:22 raspberrypi rngd[535]: stats: bits received from HRNG source: 8540064
+Mar 11 12:47:22 raspberrypi rngd[535]: stats: bits sent to kernel pool: 8486656
+Mar 11 12:47:22 raspberrypi rngd[535]: stats: entropy added to kernel pool: 8486656
+Mar 11 12:47:22 raspberrypi rngd[535]: stats: FIPS 140-2 successes: 427
+Mar 11 12:47:22 raspberrypi rngd[535]: stats: FIPS 140-2 failures: 0
+Mar 11 12:47:22 raspberrypi rngd[535]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Mar 11 12:47:22 raspberrypi rngd[535]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Mar 11 12:47:22 raspberrypi rngd[535]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Mar 11 12:47:22 raspberrypi rngd[535]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Mar 11 12:47:22 raspberrypi rngd[535]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Mar 11 12:47:22 raspberrypi rngd[535]: stats: HRNG source speed: (min=263.455; avg=537.924; max=560.389)Kibits/s
+Mar 11 12:47:22 raspberrypi rngd[535]: stats: FIPS tests speed: (min=7.706; avg=28.179; max=63.578)Mibits/s
+Mar 11 12:47:22 raspberrypi rngd[535]: stats: Lowest ready-buffers level: 2
+Mar 11 12:47:22 raspberrypi rngd[535]: stats: Entropy starvations: 0
+Mar 11 12:47:22 raspberrypi rngd[535]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Mar 11 12:47:31 raspberrypi dhcpcd[427]: eth0: Router Advertisement from fe80::2f1:f3ff:fe22:34dd
